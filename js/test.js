@@ -286,4 +286,12 @@ function promedioEdades(edades){
 
 mostrarAsistenciadeHoy(asistencia);
 cuantosAsistencieron(asistencia);
-promedioEdades(edades);
+//promedioEdades(edades);
+
+
+let elementoH2 =document.getElementById("titulo");
+
+elementoH2.innerHTML="Formulario de contacto DESDE JS";
+elementoH2.style.color="#AABBCC";
+
+
